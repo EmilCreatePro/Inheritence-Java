@@ -24,10 +24,6 @@ abstract class ClockType
 
 class Clock extends ClockType
 {
-	public Clock()
-	{
-
-	}
 	public String toString()
 	{
 		return "Normal Clock: " + super.toString();
